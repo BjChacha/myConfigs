@@ -34,3 +34,6 @@ keymap.set('n', '<C-w>h', '<c-w><')
 keymap.set('n', '<C-w>j', '<c-w>+')
 keymap.set('n', '<C-w>k', '<c-w>-')
 keymap.set('n', '<C-w>l', '<c-w>>')
+
+-- 避免Windows下Ctrl+z导致卡死
+keymap.set('n', '<C-z>', '<Nop>')
